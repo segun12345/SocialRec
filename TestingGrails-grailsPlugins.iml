@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/jquery-1.8.3/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/database-migration-1.3.2/grails-app/views" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/cache-1.0.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/cache-1.0.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/cache-1.0.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/cache-1.0.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/cache-1.0.1/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/database-migration-1.3.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/database-migration-1.3.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/database-migration-1.3.2/grails-app/controllers" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/jquery-1.8.3">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/jquery-1.8.3/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/jquery-1.8.3/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/jquery-1.8.3/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/jquery-1.8.3/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/mongodb-1.3.0" />
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/resources-1.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/resources-1.2/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/resources-1.2/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/resources-1.2/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/resources-1.2/grails-app/taglib" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/tomcat-2.2.4" />
+    <content url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/webxml-1.4.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.4/projects/TestingGrails/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-2.2.4" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (TestingGrails-grailsPlugins)">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-jasper/jars/tomcat-embed-jasper-7.0.42.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-juli/jars/tomcat-embed-logging-juli-7.0.42.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat/tomcat-catalina-ant/jars/tomcat-catalina-ant-7.0.42.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-logging-log4j/jars/tomcat-embed-logging-log4j-7.0.42.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.tomcat.embed/tomcat-embed-core/jars/tomcat-embed-core-7.0.42.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-commons/jars/spring-data-commons-1.5.1.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.gmongo/gmongo/jars/gmongo-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-mongo/jars/grails-datastore-mongo-1.3.0.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-gorm-plugin-support/jars/grails-datastore-gorm-plugin-support-1.1.9.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-commons-core/jars/spring-data-commons-core-1.4.1.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-gorm-mongo/jars/grails-datastore-gorm-mongo-1.3.0.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-web/jars/grails-datastore-web-1.1.9.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-gorm/jars/grails-datastore-gorm-1.1.9.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-datastore-core/jars/grails-datastore-core-1.1.9.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.data/spring-data-mongodb/jars/spring-data-mongodb-1.2.1.RELEASE.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.11.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
