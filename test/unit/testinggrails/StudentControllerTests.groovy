@@ -34,6 +34,7 @@ class StudentControllerTests {
         assert model.studentInstance != null
     }
 
+    @Ignore
     void testSave() {
         controller.save()
 
@@ -86,6 +87,8 @@ class StudentControllerTests {
         assert model.studentInstance == student
     }
 
+
+    @Ignore
     void testUpdate() {
         controller.update()
 
