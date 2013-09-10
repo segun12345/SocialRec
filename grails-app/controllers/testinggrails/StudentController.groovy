@@ -1,8 +1,15 @@
 package testinggrails
 
+import grails.plugins.rest.client.RestBuilder
 import org.springframework.dao.DataIntegrityViolationException
+import util.ApiConsumer
+
+import static util.ApiConsumer.postText
 
 class StudentController {
+
+    def addStudentService
+    def removeStudentService
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
@@ -99,4 +106,32 @@ class StudentController {
             redirect(action: "show", id: id)
         }
     }
+
+    def displayHeaderContent(){
+
+       render ">>>"+removeStudentService.displayContent()
+
+    }
+
+    /* def url = "http://api.stage.metadata.bskyb.com"     //http://api.stage.metadata.bskyb.com
+       def path = "/ajax/services/search/web"
+       def query = [ v:'1.0', q: 'Calvin and Hobbes' ]
+
+// Submit a request via GET
+       def response = ApiConsumer.getText(url, path, query)
+
+       println response */
+
+// Submit a request via POST
+    //def response = ApiConsumer.postText(url, path, query)
+
+    // def rest = new RestBuilder()
+    // def response = rest.get("http://api.stage.metadata.bskyb.com"){
+    // contentType ""
+
+//println response
+//render(text: "<xml>some xml</xml>", contentType: "text/xml", encoding: "UTF-8")
+    // // apikey "aa8ce3a2-9a30-4f29-a9c8-99cfb63dd07a"
+    // apiversion "1.0"
+
 }
